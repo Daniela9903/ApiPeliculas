@@ -20,6 +20,7 @@ public class PeliculasModel {
     private String genero;
     private String cal;
     private String sinopsis;
+
     
 
 
@@ -35,7 +36,7 @@ public class PeliculasModel {
         return anio_peli;
     }
 
-    public String getgenero() {
+    public String getlo() {
         return genero;
     }
 
@@ -46,7 +47,7 @@ public class PeliculasModel {
     public String getsinopsis() {
         return sinopsis;
     }
-    
+
 
     public void setid_peli(Long id_peli) {
         this.id_peli = id_peli;
@@ -71,5 +72,6 @@ public class PeliculasModel {
     public void setsinopsis(String sinopsis) {
         this.sinopsis= sinopsis;
     } 
+
     
 }
